@@ -1,0 +1,17 @@
+{
+  "name": "demoqa-framework",
+  "version": "1.0.0",
+  "description": "Playwright + JavaScript POM framework for DemoQA Book Store and ReqRes API tests",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test tests/ui/",
+    "test:api": "playwright test tests/api/",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "dotenv": "^16.4.5"
+  }
+}
